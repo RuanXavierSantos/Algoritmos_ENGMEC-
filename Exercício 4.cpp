@@ -1,20 +1,25 @@
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
 main()
 {
-	int x,y;
-	printf("Informe os dois valores\n");
-	scanf("%d %d",&x,&y);
-	if(x>y)
-	{
-		printf("%d %d",y,x);
-	}
-	else if(y>x)
-	{
-		printf("%d %d",x,y);
-	}
-	else if(x==y)
-	{
-		printf("Os numeros sao iguais");
-	}
+	float y,x;
+printf("informe um valor para x: ");
+scanf("%f",&x);
+y = 3*x+2;
+printf("O valor de y eh %.2f\n", y);
+system("PAUSE");
 }
+
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	

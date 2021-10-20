@@ -1,20 +1,19 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 main()
 {
-	float x,y;
-	printf("Informe os dois numeros\n");
-	scanf("%f %f",&x,&y);
-	if(x+y>30)
-	{
-		printf("Soma eh maior que 30");
-	}
-	else if(x+y<30)
-	{
-	printf("Soma eh menor que 30");
-	}
-	else if(x+y==30)
-	{
-	printf("Soma eh igual a 30");
-	}
+float a,b,c;
+	printf("Mesmo de o valor de a,b ou c for 1 ou -1, informe");
+	printf("informe a,b,c: ");
+	scanf("%f %f %f",&a,&b,&c);
+		float DELTA, raiz1,raiz2;
+	DELTA = (b*b)-4*a*c;
+	if(DELTA>0);
+	raiz1 = ((-b)+sqrt(DELTA))/2*a;
+	raiz2 = ((-b)-sqrt(DELTA))/2*a;
+	printf("raiz1 eh %.2f\n",raiz1);	
+	printf("raiz2 eh %.2f\n",raiz2);	
+		
+	
 }
